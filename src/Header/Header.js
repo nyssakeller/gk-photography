@@ -12,6 +12,11 @@ class Header extends Component {
           <NavLink to='/portraits' className='nav'>PORTRAITS</NavLink>
           <NavLink to='/contact' className='nav'>CONTACT</NavLink>
         </div>
+        <div className='social-media-icons'>
+          <a href='https://www.instagram.com/gwenkeller/'><img className='media-icon' src='https://www.iconsdb.com/icons/preview/white/instagram-xxl.png' /></a>
+          <a href='https://www.facebook.com/GwenKeller'><img className='media-icon' src='https://www.iconsdb.com/icons/preview/white/facebook-3-xxl.png' /></a>
+          <a href='https://www.facebook.com/GwenKeller'><img className='media-icon' src='https://www.iconsdb.com/icons/preview/white/twitter-3-xxl.png' /></a>
+        </div>
       </div>
     );
   }
