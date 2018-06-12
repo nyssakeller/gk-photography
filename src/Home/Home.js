@@ -24,9 +24,9 @@ class Home extends Component {
 
   changeImg = () => {
     let { imageUrls, counter } = this.state;
+
     this.setState({backgroundImage: [imageUrls[counter]]});
     counter >= 3 ? this.setState({ counter: 0 }) : this.setState({ counter: counter + 1 });
-    console.log(counter)
     this.callTimeOut();
   }
 
@@ -34,7 +34,7 @@ class Home extends Component {
     let { backgroundImage } = this.state;
     return (
       <div>
-        <img src={backgroundImage}/>
+        <img className='home-pics' src={backgroundImage}/>
       </div>
     );
   }
