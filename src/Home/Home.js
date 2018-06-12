@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../Footer/Footer';
 import './Home.css';
 
 class Home extends Component {
@@ -35,6 +36,7 @@ class Home extends Component {
     return (
       <div className='home'>
         <img className='home-pics' src={backgroundImage}/>
+        <Footer />
       </div>
     );
   }
