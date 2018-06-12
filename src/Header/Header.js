@@ -7,10 +7,10 @@ class Header extends Component {
     return (
       <div className='header'>
         <h1>Gwen Keller Photography</h1>
-        <div>
-          <NavLink to='/about' className='nav'>About</NavLink>
-          <NavLink to='/portraits' className='nav'>Portraits</NavLink>
-          <NavLink to='/contact' className='nav'>Contact</NavLink>
+        <div className='nav-links'>
+          <NavLink to='/about' className='nav'>ABOUT</NavLink>
+          <NavLink to='/portraits' className='nav'>PORTRAITS</NavLink>
+          <NavLink to='/contact' className='nav'>CONTACT</NavLink>
         </div>
       </div>
     );
